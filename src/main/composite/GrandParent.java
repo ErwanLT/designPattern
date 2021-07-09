@@ -3,24 +3,10 @@ package main.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GrandParent implements Human{
+public class GrandParent extends AbstractHuman {
 
-    private String name;
-    private String lastName;
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public String getLastName() {
-        return lastName;
-    }
-
-    public GrandParent(String name, String lastName){
-        this.name = name;
-        this.lastName = lastName;
+    public GrandParent(String name, String lastName) {
+        super(name, lastName);
     }
 
     @Override
@@ -29,13 +15,14 @@ public class GrandParent implements Human{
         System.out.println("Name : " + getName());
         System.out.println("Last name : " + getLastName());
         System.out.println("Childs :");
-        for (Human child: childs) {
+        for (Human child : childs) {
             System.out.println("  - Name : " + child.getName());
         }
         System.out.println("==============================");
     }
 
     private List<Human> childs = new ArrayList<>();
+
     @Override
     public void addChild(Human child) {
         childs.add(child);

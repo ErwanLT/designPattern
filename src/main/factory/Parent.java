@@ -2,7 +2,7 @@ package main.factory;
 
 import java.util.Random;
 
-public class Parent extends Human{
+public class Parent extends Human {
 
     @Override
     int getAge() {

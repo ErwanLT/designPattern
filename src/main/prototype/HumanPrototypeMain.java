@@ -7,7 +7,7 @@ public class HumanPrototypeMain extends Human {
 
         Human human2 = (Human) human1.getClone();
 
-        if (human1.equals(human2)){
+        if (human1.equals(human2)) {
             System.out.println("Equals");
         }
     }

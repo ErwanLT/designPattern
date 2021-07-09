@@ -6,7 +6,7 @@ abstract class Human {
 
     abstract int getAge();
 
-    public void print(){
+    public void print() {
         System.out.println("==============================");
         System.out.println("age : " + getAge());
         System.out.println("==============================");

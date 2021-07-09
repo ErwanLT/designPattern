@@ -2,16 +2,16 @@ package main.prototype;
 
 import java.util.Objects;
 
-public class Human implements Prototype{
+public class Human implements Prototype {
 
     private String name;
     private String lastName;
     private int age;
 
-    public Human(){
+    public Human() {
         System.out.println(" Human description ");
         System.out.println("---------------------------------");
-        System.out.println("Name"+"\t"+"Last Name"+"\t"+"Age");
+        System.out.println("Name" + "\t" + "Last Name" + "\t" + "Age");
     }
 
     public Human(String name, String lastName, int age) {
@@ -22,8 +22,8 @@ public class Human implements Prototype{
         showHuman();
     }
 
-    private void showHuman(){
-        System.out.println(name+"\t"+lastName+"\t"+age);
+    private void showHuman() {
+        System.out.println(name + "\t" + lastName + "\t" + age);
     }
 
     @Override

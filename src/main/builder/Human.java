@@ -20,7 +20,7 @@ public class Human {
     private final int numberOfSibling;
     private final boolean married;
 
-    private Human(HumanBuilder builder){
+    private Human(HumanBuilder builder) {
         this.name = builder.name;
         this.lastName = builder.lastName;
         this.age = builder.age;
@@ -35,7 +35,7 @@ public class Human {
     }
 
     @NoArgsConstructor
-    public static class HumanBuilder{
+    public static class HumanBuilder {
 
         private String name;
         private String lastName;
@@ -49,62 +49,62 @@ public class Human {
         private int numberOfSibling;
         private boolean married;
 
-        public HumanBuilder withName(String name){
+        public HumanBuilder withName(String name) {
             this.name = name;
             return this;
         }
 
-        public HumanBuilder withLastName(String lastName){
+        public HumanBuilder withLastName(String lastName) {
             this.lastName = lastName;
             return this;
         }
 
-        public HumanBuilder withAge(int age){
+        public HumanBuilder withAge(int age) {
             this.age = age;
             return this;
         }
 
-        public HumanBuilder withHeight(String height){
+        public HumanBuilder withHeight(String height) {
             this.height = height;
             return this;
         }
 
-        public HumanBuilder withWeight(String weight){
+        public HumanBuilder withWeight(String weight) {
             this.weight = weight;
             return this;
         }
 
-        public HumanBuilder withEyesColor(String eyesColor){
+        public HumanBuilder withEyesColor(String eyesColor) {
             this.eyesColor = eyesColor;
             return this;
         }
 
-        public HumanBuilder withHairColor(String hairColor){
+        public HumanBuilder withHairColor(String hairColor) {
             this.hairColor = hairColor;
             return this;
         }
 
-        public HumanBuilder withBirthPlace(String birthPlace){
+        public HumanBuilder withBirthPlace(String birthPlace) {
             this.birthPlace = birthPlace;
             return this;
         }
 
-        public HumanBuilder withBirthDate(Date birthDate){
+        public HumanBuilder withBirthDate(Date birthDate) {
             this.birthDate = birthDate;
             return this;
         }
 
-        public HumanBuilder withNumberOfSibling(int numberOfSibling){
+        public HumanBuilder withNumberOfSibling(int numberOfSibling) {
             this.numberOfSibling = numberOfSibling;
             return this;
         }
 
-        public HumanBuilder isMarried(boolean married){
+        public HumanBuilder isMarried(boolean married) {
             this.married = married;
             return this;
         }
 
-        public Human build(){
+        public Human build() {
             Human human = new Human(this);
             return human;
         }
