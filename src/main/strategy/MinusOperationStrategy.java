@@ -1,8 +1,8 @@
 package main.strategy;
 
-public final class MinusStrategy extends AbstractOperationStrategy{
+public final class MinusOperationStrategy extends AbstractOperationStrategy{
 
-    public MinusStrategy(int a, int b){
+    public MinusOperationStrategy(int a, int b){
         super(a, b);
     }
 

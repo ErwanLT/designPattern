@@ -1,9 +1,9 @@
 package main.strategy;
 
-public final class PlusStrategy extends AbstractOperationStrategy {
+public final class PlusOperationStrategy extends AbstractOperationStrategy {
 
 
-    public PlusStrategy(int a, int b){
+    public PlusOperationStrategy(int a, int b){
         super(a, b);
     }
 
