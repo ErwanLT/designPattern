@@ -12,3 +12,6 @@ When we want to implement the same interface on leaves and composites so that th
 
 ## [Prototype](src/main/prototype)
 If the cost for creating a new object is expensive and costs resources.
+
+## [Strategy](src/main/strategy)
+When you want the algorithm to vary independently from clients that use it.
