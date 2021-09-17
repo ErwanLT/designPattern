@@ -13,5 +13,8 @@ When we want to implement the same interface on leaves and composites so that th
 ## [Prototype](src/main/java/prototype)
 If the cost for creating a new object is expensive and costs resources.
 
+## [Proxy](src/main/java/proxy)
+When you want to provides the control for accessing the original object.
+
 ## [Strategy](src/main/java/strategy)
 When you want the algorithm to vary independently from clients that use it.
