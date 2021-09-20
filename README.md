@@ -5,6 +5,9 @@ When you have a simple object, this pattern is not very useful, but when you beg
 ## [Composite](src/main/java/composite)
 When we want to implement the same interface on leaves and composites so that they are handled in the same way.
 
+## [FAcade](src/main/java/facade)
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+
 ## [Factory](src/main/java/factory)
 * When a class doesn’t know what sub-classes will be required to create
 * When a class wants that its sub-classes specify the objects to be created.
