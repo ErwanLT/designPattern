@@ -1,4 +1,9 @@
 # Design Pattern
+## [Adapter](src/main/java/adapter)
+- When an outside component provides captivating functionality that we'd like to reuse, but it's incompatible with our current application. A suitable Adapter can be developed to make them compatible with each other
+- When our application is not compatible with the interface that our client is expecting
+- When we want to reuse legacy code in our application without making any modification in the original code
+
 ## [Builder](src/main/java/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
 
