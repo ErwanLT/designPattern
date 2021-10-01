@@ -18,6 +18,9 @@ Facade pattern hides the complexities of the system and provides an interface to
 * When a class wants that its sub-classes specify the objects to be created.
 * When the parent classes choose the creation of objects to its sub-classes.
 
+## [Mediator](src/main/java/mediator)
+Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
+
 ## [Prototype](src/main/java/prototype)
 If the cost for creating a new object is expensive and costs resources.
 
