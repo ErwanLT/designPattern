@@ -18,6 +18,9 @@ Facade pattern hides the complexities of the system and provides an interface to
 * When a class wants that its sub-classes specify the objects to be created.
 * When the parent classes choose the creation of objects to its sub-classes.
 
+## [Memento](src/main/java/memento)
+Typically, the Memento Design Pattern will be used in situations where some actions are undoable, therefore requiring to rollback to a previous state. However, if the state of the Originator is heavy, using the Memento Design Pattern can lead to an expensive creation process and increased use of memory.
+
 ## [Prototype](src/main/java/prototype)
 If the cost for creating a new object is expensive and costs resources.
 
