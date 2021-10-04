@@ -21,6 +21,9 @@ Facade pattern hides the complexities of the system and provides an interface to
 ## [Mediator](src/main/java/mediator)
 Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
 
+## [Memento](src/main/java/memento)
+Typically, the Memento Design Pattern will be used in situations where some actions are undoable, therefore requiring to rollback to a previous state. However, if the state of the Originator is heavy, using the Memento Design Pattern can lead to an expensive creation process and increased use of memory.
+
 ## [Prototype](src/main/java/prototype)
 If the cost for creating a new object is expensive and costs resources.
 
