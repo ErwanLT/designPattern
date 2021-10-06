@@ -7,6 +7,11 @@
 ## [Builder](src/main/java/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
 
+## [Command](src/main/java/command)
+- When you need parameterize objects according to an action perform.
+- When you need to create and execute requests at different times.
+- When you need to support rollback, logging or transaction functionality.
+
 ## [Composite](src/main/java/composite)
 When we want to implement the same interface on leaves and composites so that they are handled in the same way.
 
