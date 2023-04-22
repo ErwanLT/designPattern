@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class CelestialFactory {
 
-    public Celestial getCelestial(String type){
+    public static Celestial getCelestial(String type){
         if(Objects.isNull(type)){
             return null;
         }

@@ -3,14 +3,13 @@ package main.java.factory;
 public class FactoryMain {
 
     public static void main(String[] args) {
-        CelestialFactory factory = new CelestialFactory();
-        Celestial celestial1 = factory.getCelestial("PLANET");
+        Celestial celestial1 = CelestialFactory.getCelestial("PLANET");
         System.out.println(celestial1.canHaveNaturalSatellite());
 
-        Celestial celestial2 = factory.getCelestial("STAR");
+        Celestial celestial2 = CelestialFactory.getCelestial("STAR");
         System.out.println(celestial2.canHaveNaturalSatellite());
 
-        Celestial celestial3 = factory.getCelestial("STARLINK");
+        Celestial celestial3 = CelestialFactory.getCelestial("STARLINK");
         System.out.println(celestial3.canHaveNaturalSatellite());
     }
 }
