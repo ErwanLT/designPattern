@@ -3,12 +3,14 @@ package main.java.factory;
 public class FactoryMain {
 
     public static void main(String[] args) {
+        CelestialFactory factory = new CelestialFactory();
+        Celestial celestial1 = factory.getCelestial("PLANET");
+        System.out.println(celestial1.canHaveNaturalSatellite());
 
-        HumanFactory factory = new HumanFactory();
+        Celestial celestial2 = factory.getCelestial("STAR");
+        System.out.println(celestial2.canHaveNaturalSatellite());
 
-        factory.getHuman(HumanPeriodEnum.CHILD).print();
-        factory.getHuman(HumanPeriodEnum.PARENT).print();
-        factory.getHuman(HumanPeriodEnum.GRANDPARENT).print();
-
+        Celestial celestial3 = factory.getCelestial("STARLINK");
+        System.out.println(celestial3.canHaveNaturalSatellite());
     }
 }
