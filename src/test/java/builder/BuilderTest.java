@@ -1,6 +1,6 @@
 package test.java.builder;
 
-import main.java.builder.Human;
+import main.java.creation.builder.Human;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

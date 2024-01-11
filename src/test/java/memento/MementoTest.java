@@ -1,7 +1,7 @@
 package test.java.memento;
 
-import main.java.memento.TextEditor;
-import main.java.memento.TextWindow;
+import main.java.behaviorial.memento.TextEditor;
+import main.java.behaviorial.memento.TextWindow;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

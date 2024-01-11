@@ -1,6 +1,6 @@
 package test.java.mediator;
 
-import main.java.mediator.User;
+import main.java.behaviorial.mediator.User;
 import org.junit.jupiter.api.*;
 
 import java.io.ByteArrayOutputStream;

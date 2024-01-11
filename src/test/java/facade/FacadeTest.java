@@ -1,9 +1,9 @@
 package test.java.facade;
 
-import main.java.facade.Circle;
-import main.java.facade.Shape;
-import main.java.facade.ShapeMaker;
-import main.java.facade.Square;
+import main.java.structural.facade.Circle;
+import main.java.structural.facade.Shape;
+import main.java.structural.facade.ShapeMaker;
+import main.java.structural.facade.Square;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

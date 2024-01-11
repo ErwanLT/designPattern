@@ -1,9 +1,9 @@
 package test.java.adapter;
 
-import main.java.adapter.hole.RoundHole;
-import main.java.adapter.pattern.Adapters;
-import main.java.adapter.shape.Round;
-import main.java.adapter.shape.Square;
+import main.java.structural.adapter.hole.RoundHole;
+import main.java.structural.adapter.pattern.Adapters;
+import main.java.structural.adapter.shape.Round;
+import main.java.structural.adapter.shape.Square;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
