@@ -4,11 +4,11 @@ public class CalculatorContext {
 
     private IOperationStrategy strategy;
 
-    public CalculatorContext(IOperationStrategy strategy){
-        this.strategy = strategy;
+    public void setOperationStrategy(IOperationStrategy operationStrategy) {
+        this.strategy = operationStrategy;
     }
 
-    public void compute(){
-        this.strategy.compute();
+    public int executeOperation(){
+        return this.strategy.compute();
     }
 }

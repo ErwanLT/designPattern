@@ -7,7 +7,7 @@ public final class MinusOperationStrategy extends AbstractOperationStrategy{
     }
 
     @Override
-    public void compute() {
-        System.out.println(getA() - getB());
+    public int compute() {
+        return getA() - getB();
     }
 }

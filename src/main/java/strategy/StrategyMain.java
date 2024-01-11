@@ -4,11 +4,12 @@ public class StrategyMain {
 
     public static void main(String[] args) {
 
-        CalculatorContext ctx = new CalculatorContext(new PlusOperationStrategy(2, 3));
-        ctx.compute();
+        CalculatorContext ctx = new CalculatorContext();
+        ctx.setOperationStrategy(new PlusOperationStrategy(2, 3));
+        System.out.println(ctx.executeOperation());
 
-        ctx = new CalculatorContext(new MinusOperationStrategy(2, 3));
-        ctx.compute();
+        ctx.setOperationStrategy(new MinusOperationStrategy(2, 3));
+        System.out.println(ctx.executeOperation());
 
     }
 }
