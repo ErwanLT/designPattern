@@ -1,4 +1,4 @@
-package main.java.behaviorial.command;
+package main.java.behavioral.command;
 
 public class Document {
 

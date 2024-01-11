@@ -1,6 +1,6 @@
-package main.java.behaviorial.command;
+package main.java.behavioral.command;
 
-import main.java.behaviorial.command.actions.ActionListenerCommand;
+import main.java.behavioral.command.actions.ActionListenerCommand;
 
 public class MenuOptions {
 

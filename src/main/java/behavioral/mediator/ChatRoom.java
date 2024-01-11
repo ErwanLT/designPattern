@@ -1,4 +1,4 @@
-package main.java.behaviorial.mediator;
+package main.java.behavioral.mediator;
 
 import java.util.Date;
 

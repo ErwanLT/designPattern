@@ -1,6 +1,6 @@
-package main.java.behaviorial.command.actions;
+package main.java.behavioral.command.actions;
 
-import main.java.behaviorial.command.Document;
+import main.java.behavioral.command.Document;
 
 public class ActionSave implements ActionListenerCommand {
 

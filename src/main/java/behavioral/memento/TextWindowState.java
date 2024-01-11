@@ -1,4 +1,4 @@
-package main.java.behaviorial.memento;
+package main.java.behavioral.memento;
 
 public class TextWindowState {
 

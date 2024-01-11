@@ -1,4 +1,4 @@
-package main.java.behaviorial.command.actions;
+package main.java.behavioral.command.actions;
 
 public interface ActionListenerCommand {
     public void execute();
