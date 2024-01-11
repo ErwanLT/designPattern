@@ -25,7 +25,7 @@ When you have a simple object, this pattern is not very useful, but when you beg
 ![Factory.png](src%2Fmain%2Fjava%2Fcreation%2Ffactory%2FFactory.png)
 ### [Prototype](src/main/java/creation/prototype)
 If the cost for creating a new object is expensive and costs resources.
-
+![prototype.png](src%2Fmain%2Fjava%2Fcreation%2Fprototype%2Fprototype.png)
 
 ## Structural
 ### [Adapter](src/main/java/structural/adapter)
