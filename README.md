@@ -13,16 +13,16 @@ Typically, the Memento Design Pattern will be used in situations where some acti
 
 ### [Strategy](src/main/java/behavioral/strategy)
 When you want the algorithm to vary independently from clients that use it.
-
+![strategy.drawio.png](src%2Fmain%2Fjava%2Fbehavioral%2Fstrategy%2Fstrategy.drawio.png)
 ## Creation
 ### [Builder](src/main/java/creation/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
-
+![Builder.png](src%2Fmain%2Fjava%2Fcreation%2Fbuilder%2FBuilder.png)
 ### [Factory](src/main/java/creation/factory)
 * When a class doesn’t know what sub-classes will be required to create
 * When a class wants that its sub-classes specify the objects to be created.
 * When the parent classes choose the creation of objects to its sub-classes.
-
+![Factory.png](src%2Fmain%2Fjava%2Fcreation%2Ffactory%2FFactory.png)
 ### [Prototype](src/main/java/creation/prototype)
 If the cost for creating a new object is expensive and costs resources.
 
