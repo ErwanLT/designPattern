@@ -4,3 +4,6 @@
 
 ## Where to use
 When you want the algorithm to vary independently from clients that use it.
+
+## Implementation
+![strategy.drawio.png](strategy.drawio.png)

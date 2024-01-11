@@ -7,3 +7,5 @@
 * When a class wants that its sub-classes specify the objects to be created.
 * When the parent classes choose the creation of objects to its sub-classes.
 
+## Implementation
+![Factory.png](Factory.png)

@@ -4,3 +4,6 @@
 
 ## Where to use
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
+
+## Implementation
+![Builder.png](Builder.png)
