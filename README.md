@@ -14,6 +14,7 @@ Typically, the Memento Design Pattern will be used in situations where some acti
 ### [Strategy](src/main/java/behavioral/strategy)
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](src%2Fmain%2Fjava%2Fbehavioral%2Fstrategy%2Fstrategy.drawio.png)
+
 ## Creation
 ### [Builder](src/main/java/creation/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
@@ -26,6 +27,9 @@ When you have a simple object, this pattern is not very useful, but when you beg
 ### [Prototype](src/main/java/creation/prototype)
 If the cost for creating a new object is expensive and costs resources.
 ![prototype.png](src%2Fmain%2Fjava%2Fcreation%2Fprototype%2Fprototype.png)
+### [Singleton](src/main/java/creation/singleton)
+When you want to ensure that a class has only one instance and to provide a global point of access to that instance
+![singleton.png](src%2Fmain%2Fjava%2Fcreation%2Fsingleton%2Fsingleton.png)
 
 ## Structural
 ### [Adapter](src/main/java/structural/adapter)
