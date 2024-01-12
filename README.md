@@ -1,5 +1,5 @@
 # Design Pattern
-## Behavioral
+## [Behavioral](src/main/java/behavioral)
 ### [Command](src/main/java/behavioral/command)
 - When you need parameterize objects according to an action perform.
 - When you need to create and execute requests at different times.
@@ -13,25 +13,25 @@ Typically, the Memento Design Pattern will be used in situations where some acti
 
 ### [Strategy](src/main/java/behavioral/strategy)
 When you want the algorithm to vary independently from clients that use it.
-![strategy.drawio.png](src%2Fmain%2Fjava%2Fbehavioral%2Fstrategy%2Fstrategy.drawio.png)
+![strategy.drawio.png](src/main/java/behavioral/strategy/strategy.drawio.png)
 
-## Creation
+## [Creation](src/main/java/creation)
 ### [Builder](src/main/java/creation/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
-![Builder.png](src%2Fmain%2Fjava%2Fcreation%2Fbuilder%2FBuilder.png)
+![Builder.png](src/main/java/creation/builder/Builder.png)
 ### [Factory](src/main/java/creation/factory)
 * When a class doesn’t know what sub-classes will be required to create
 * When a class wants that its sub-classes specify the objects to be created.
 * When the parent classes choose the creation of objects to its sub-classes.
-![Factory.png](src%2Fmain%2Fjava%2Fcreation%2Ffactory%2FFactory.png)
+![Factory.png](src/main/java/creation/factory/Factory.png)
 ### [Prototype](src/main/java/creation/prototype)
 If the cost for creating a new object is expensive and costs resources.
-![prototype.png](src%2Fmain%2Fjava%2Fcreation%2Fprototype%2Fprototype.png)
+![prototype.png](src/main/java/creation/prototype/prototype.png)
 ### [Singleton](src/main/java/creation/singleton)
 When you want to ensure that a class has only one instance and to provide a global point of access to that instance
-![singleton.png](src%2Fmain%2Fjava%2Fcreation%2Fsingleton%2Fsingleton.png)
+![singleton.png](src/main/java/creation/singleton/singleton.png)
 
-## Structural
+## [Structural](src/main/java/structural)
 ### [Adapter](src/main/java/structural/adapter)
 - When an outside component provides captivating functionality that we'd like to reuse, but it's incompatible with our current application. A suitable Adapter can be developed to make them compatible with each other
 - When our application is not compatible with the interface that our client is expecting
