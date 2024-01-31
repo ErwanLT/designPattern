@@ -1,6 +1,6 @@
-package main.java.structural.adapter.hole;
+package structural.adapter.hole;
 
-import main.java.structural.adapter.shape.Round;
+import structural.adapter.shape.Round;
 
 public class RoundHole {
 

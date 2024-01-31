@@ -1,4 +1,4 @@
-package main.java.structural.composite;
+package structural.composite;
 
 public abstract class AbstractHuman implements Human{
 

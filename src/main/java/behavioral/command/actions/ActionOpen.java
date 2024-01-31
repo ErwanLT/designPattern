@@ -1,6 +1,6 @@
-package main.java.behavioral.command.actions;
+package behavioral.command.actions;
 
-import main.java.behavioral.command.Document;
+import behavioral.command.Document;
 
 public class ActionOpen implements ActionListenerCommand {
 

@@ -1,4 +1,4 @@
-package main.java.structural.adapter.shape;
+package structural.adapter.shape;
 
 public class Round {
 

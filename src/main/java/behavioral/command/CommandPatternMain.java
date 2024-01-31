@@ -1,8 +1,8 @@
-package main.java.behavioral.command;
+package behavioral.command;
 
-import main.java.behavioral.command.actions.ActionListenerCommand;
-import main.java.behavioral.command.actions.ActionOpen;
-import main.java.behavioral.command.actions.ActionSave;
+import behavioral.command.actions.ActionListenerCommand;
+import behavioral.command.actions.ActionOpen;
+import behavioral.command.actions.ActionSave;
 
 public class CommandPatternMain {
 

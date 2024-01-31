@@ -1,4 +1,4 @@
-package main.java.behavioral.strategy;
+package behavioral.strategy;
 
 public final class PlusOperationStrategy extends AbstractOperationStrategy {
 

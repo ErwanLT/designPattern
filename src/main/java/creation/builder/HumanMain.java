@@ -1,4 +1,4 @@
-package main.java.creation.builder;
+package creation.builder;
 
 public class HumanMain {
 

@@ -1,4 +1,4 @@
-package main.java.creation.factory;
+package creation.factory;
 
 public interface Celestial {
     String canHaveNaturalSatellite();

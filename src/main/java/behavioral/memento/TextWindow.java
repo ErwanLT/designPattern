@@ -1,4 +1,4 @@
-package main.java.behavioral.memento;
+package behavioral.memento;
 
 public class TextWindow {
 

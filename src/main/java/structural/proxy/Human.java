@@ -1,4 +1,4 @@
-package main.java.structural.proxy;
+package structural.proxy;
 
 public interface Human {
 

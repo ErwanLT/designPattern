@@ -1,4 +1,4 @@
-package main.java.behavioral.strategy;
+package behavioral.strategy;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

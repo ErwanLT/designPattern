@@ -1,7 +1,7 @@
-package main.java.structural.adapter.pattern;
+package structural.adapter.pattern;
 
-import main.java.structural.adapter.shape.Round;
-import main.java.structural.adapter.shape.Square;
+import structural.adapter.shape.Round;
+import structural.adapter.shape.Square;
 
 public class Adapters extends Round {
 

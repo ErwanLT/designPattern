@@ -1,4 +1,4 @@
-package main.java.behavioral.mediator;
+package behavioral.mediator;
 
 public class MediatorPatternMain {
 

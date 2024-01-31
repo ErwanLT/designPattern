@@ -1,4 +1,4 @@
-package main.java.creation.singleton;
+package creation.singleton;
 
 public class Planet {
     private String name;

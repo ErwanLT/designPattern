@@ -1,4 +1,4 @@
-package main.java.creation.prototype;
+package creation.prototype;
 
 public class Human implements Prototype {
 

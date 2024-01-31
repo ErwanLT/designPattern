@@ -1,4 +1,4 @@
-package main.java.creation.prototype;
+package creation.prototype;
 
 import org.junit.jupiter.api.Assertions;
 

@@ -1,4 +1,4 @@
-package main.java.structural.facade;
+package structural.facade;
 
 public interface Shape {
     void draw();

@@ -1,9 +1,9 @@
-package main.java.structural.adapter;
+package structural.adapter;
 
-import main.java.structural.adapter.hole.RoundHole;
-import main.java.structural.adapter.pattern.Adapters;
-import main.java.structural.adapter.shape.Round;
-import main.java.structural.adapter.shape.Square;
+import structural.adapter.hole.RoundHole;
+import structural.adapter.pattern.Adapters;
+import structural.adapter.shape.Round;
+import structural.adapter.shape.Square;
 
 public class AdapterMain {
 

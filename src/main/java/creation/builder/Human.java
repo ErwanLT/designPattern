@@ -1,4 +1,4 @@
-package main.java.creation.builder;
+package creation.builder;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
