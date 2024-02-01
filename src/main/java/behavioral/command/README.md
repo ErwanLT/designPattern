@@ -6,3 +6,6 @@
 - When you need parameterize objects according to an action perform.
 - When you need to create and execute requests at different times.
 - When you need to support rollback, logging or transaction functionality.
+
+## Implementation
+![commande.png](commande.png)
