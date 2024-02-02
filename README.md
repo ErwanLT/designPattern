@@ -11,7 +11,7 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 
 ### [Memento](src/main/java/behavioral/memento)
 Typically, the Memento Design Pattern will be used in situations where some actions are undoable, therefore requiring to rollback to a previous state. However, if the state of the Originator is heavy, using the Memento Design Pattern can lead to an expensive creation process and increased use of memory.
-
+![memento.png](src/main/java/behavioral/memento/memento.png)
 ### [Strategy](src/main/java/behavioral/strategy)
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](src/main/java/behavioral/strategy/strategy.drawio.png)
