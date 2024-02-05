@@ -3,7 +3,6 @@ package behavioral.memento;
 public class TextEditor {
 
     private TextWindow textWindow;
-    private TextWindowState savedTextWindow;
 
     public TextEditor(TextWindow textWindow) {
         this.textWindow = textWindow;
@@ -18,10 +17,10 @@ public class TextEditor {
     }
 
     public void hitSave() {
-        savedTextWindow = textWindow.save();
+        textWindow.saveAndPush();
     }
 
     public void hitUndo() {
-        textWindow.restore(savedTextWindow);
+        textWindow.undo();
     }
 }

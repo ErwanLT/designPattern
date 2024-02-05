@@ -10,6 +10,10 @@ public class MementoMain {
         System.out.println(textEditor.print());
 
         textEditor.write("Buy milk and eggs before coming home\n");
+        textEditor.hitSave();
+        textEditor.write("And some sugar\n");
+        System.out.println(textEditor.print());
+        textEditor.hitUndo();
         System.out.println(textEditor.print());
         textEditor.hitUndo();
         System.out.println(textEditor.print());
