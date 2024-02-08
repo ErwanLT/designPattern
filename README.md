@@ -8,10 +8,12 @@
 
 ### [Mediator](src/main/java/behavioral/mediator)
 Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
+![mediator.png](src/main/java/behavioral/mediator/mediator.png)
 
 ### [Memento](src/main/java/behavioral/memento)
 Typically, the Memento Design Pattern will be used in situations where some actions are undoable, therefore requiring to rollback to a previous state. However, if the state of the Originator is heavy, using the Memento Design Pattern can lead to an expensive creation process and increased use of memory.
 ![memento.png](src/main/java/behavioral/memento/memento.png)
+
 ### [Strategy](src/main/java/behavioral/strategy)
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](src/main/java/behavioral/strategy/strategy.drawio.png)
@@ -20,6 +22,7 @@ When you want the algorithm to vary independently from clients that use it.
 ### [Builder](src/main/java/creation/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
 ![Builder.png](src/main/java/creation/builder/Builder.png)
+
 ### [Factory](src/main/java/creation/factory)
 * When a class doesn’t know what sub-classes will be required to create
 * When a class wants that its sub-classes specify the objects to be created.
