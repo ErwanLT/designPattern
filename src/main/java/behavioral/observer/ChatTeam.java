@@ -20,8 +20,8 @@ public class ChatTeam {
     }
 
     private void notifyObservers(String message) {
-        for (Observer observer : observers) {
-            observer.update(message);
-        }
+        observers.forEach(
+                o -> o.update(message)
+        );
     }
 }

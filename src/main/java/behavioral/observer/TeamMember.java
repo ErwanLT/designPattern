@@ -1,8 +1,8 @@
 package behavioral.observer;
 
 public class TeamMember implements Observer{
-    private String name;
-    private ChatTeam chatTeam;
+    private final String name;
+    private final ChatTeam chatTeam;
 
     public TeamMember(String name, ChatTeam chatTeam) {
         this.name = name;
