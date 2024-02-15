@@ -13,7 +13,7 @@ Typically, the Memento Design Pattern will be used in situations where some acti
 
 ## [Observer](observer)
 
-![observer.drawio.png](observer/observer.drawio.png)
+![observer.drawio.png](observer/observer.png)
 ## [Strategy](strategy)
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](strategy/strategy.drawio.png)
