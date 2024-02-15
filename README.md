@@ -16,6 +16,8 @@ Typically, the Memento Design Pattern will be used in situations where some acti
 
 ### [Observer](src/main/java/behavioral/observer)
 
+![observer.drawio.png](src/main/java/behavioral/observer/observer.drawio.png)
+
 ### [Strategy](src/main/java/behavioral/strategy)
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](src/main/java/behavioral/strategy/strategy.drawio.png)
