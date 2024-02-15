@@ -13,9 +13,8 @@ public class ObserverMain {
 
         chatTeam.sendMessage("Bonjour à tous !");
 
+        member1.sendMessage("je pense que je vais partir manger");
         member1.leaveChat();
-
-        chatTeam.sendMessage("Une nouvelle discussion a commencé.");
 
         member2.leaveChat();
     }

@@ -18,11 +18,16 @@ class TeamMember implements Observer {
     public void leaveChat() {
         chatTeam.removeObserver(this);
         System.out.println(name + " a quitté le chat d'équipe.");
-        update("Vous avez quitté le chat d'équipe.");
+    }
+
+    public void sendMessage(String message) {
+        chatTeam.sendMessage(name + ": " + message);
     }
 
     @Override
     public void update(String message) {
-        System.out.println(name + ": " + message);
+        if (!message.startsWith(name)) {
+            System.out.println(message);
+        }
     }
 }
