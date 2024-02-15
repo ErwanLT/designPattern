@@ -15,7 +15,7 @@ Typically, the Memento Design Pattern will be used in situations where some acti
 ![memento.png](src/main/java/behavioral/memento/memento.png)
 
 ### [Observer](src/main/java/behavioral/observer)
-
+Lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 ![observer.drawio.png](src/main/java/behavioral/observer/observer.png)
 
 ### [Strategy](src/main/java/behavioral/strategy)
