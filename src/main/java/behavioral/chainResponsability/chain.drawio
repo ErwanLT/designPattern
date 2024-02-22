@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2022-02-16T09:18:16.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="q2oNXptiB9gNdMCcHOmT" version="14.10.4" type="device">
+  <diagram name="Page-1" id="flcEM2z3vCgoF05vpIiF">
+    <mxGraphModel dx="1375" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d1" value="GestionnaireRemboursement\n+traiterRemboursement(requete: RequeteRemboursement): void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" value="GestionnaireRemboursementBase\n+setSuivant(suivant: GestionnaireRemboursement): void&#xa;+peutTraiter(requete: RequeteRemboursement): boolean&#xa;+traiter(requete: RequeteRemboursement): void&#xa;+gererErreur(requete: RequeteRemboursement): void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d3" value="GestionnaireRemboursementPetit\n{static} +GestionnaireRemboursementPetit(suivant: GestionnaireRemboursement): GestionnaireRemboursementPetit&#xa;+peutTraiter(requete: RequeteRemboursement): boolean&#xa;+traiter(requete: RequeteRemboursement): void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d4" value="GestionnaireRemboursementMoyen\n{static} +GestionnaireRemboursementMoyen(suivant: GestionnaireRemboursement): GestionnaireRemboursementMoyen&#xa;+peutTraiter(requete: RequeteRemboursement): boolean&#xa;+traiter(requete: RequeteRemboursement): void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d5" value="GestionnaireRemboursementGrand\n{static} +GestionnaireRemboursementGrand(suivant: GestionnaireRemboursement): GestionnaireRemboursementGrand&#xa;+peutTraiter(requete: RequeteRemboursement): boolean&#xa;+traiter(requete: RequeteRemboursement): void" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="d6" value="RequeteRemboursement\n+montant: double&#xa;+RequeteRemboursement(montant: double)&#xa;+getMontant(): double" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="" edge="1" parent="1" source="d2" target="d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="" edge="1" parent="1" source="d3" target="d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="" edge="1" parent="1" source="d4" target="d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" value="" edge="1" parent="1" source="d5" target="d2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" value="" edge="1" parent="1" source="d6" target="d1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
