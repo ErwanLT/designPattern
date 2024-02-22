@@ -1,5 +1,8 @@
 # Design Pattern
 ## [Behavioral](src/main/java/behavioral)
+### [Chain of Responsability](src/main/java/behavioral/chainResponsability)
+
+![chain.png](src/main/java/behavioral/chainResponsability/chain.png)
 ### [Command](src/main/java/behavioral/command)
 - When you need parameterize objects according to an action perform.
 - When you need to create and execute requests at different times.
