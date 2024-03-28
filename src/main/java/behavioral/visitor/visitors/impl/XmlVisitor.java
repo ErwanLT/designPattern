@@ -46,27 +46,19 @@ public class XmlVisitor implements Visitor {
 
     @Override
     public String visitMoon(Moon moon) {
-        StringBuilder sb = new StringBuilder();
-        sb.append(indent()).append("        <moon>\n");
-        sb.append(indent()).append("            <name>").append(moon.getName()).append("</name>\n");
-        sb.append(indent()).append("        </moon>\n");
-        return sb.toString();
+        return indent() + "        <moon>\n" +
+                indent() + "            <name>" + moon.getName() + "</name>\n" +
+                indent() + "        </moon>\n";
     }
 
     public String getXmlRepresentation(SpaceElement element) {
-        StringBuilder sb = new StringBuilder();
-        sb.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
-        sb.append("<solar_system>\n");
-        sb.append(element.accept(this));
-        sb.append("</solar_system>");
-        return sb.toString();
+        return "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
+                "<solar_system>\n" +
+                element.accept(this) +
+                "</solar_system>";
     }
 
     private String indent() {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < level; i++) {
-            sb.append("    ");
-        }
-        return sb.toString();
+        return "    ".repeat(Math.max(0, level));
     }
 }
