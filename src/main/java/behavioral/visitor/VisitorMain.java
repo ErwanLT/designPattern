@@ -27,10 +27,10 @@ public class VisitorMain {
         earth.accept(xmlVisitor);
         mars.accept(xmlVisitor);
 
-        export(xmlVisitor, sun, earth, mars, moon);
+        export(xmlVisitor, sun);
     }
 
-    private static void export(XmlVisitor visitor, SpaceElement... element){
+    private static void export(XmlVisitor visitor, SpaceElement element){
         System.out.println(visitor.getXmlRepresentation(element));
     }
 }
