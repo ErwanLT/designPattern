@@ -13,17 +13,17 @@ public class XmlVisitor implements Visitor {
     @Override
     public String visitPlanet(Planet planet) {
         StringBuilder sb = new StringBuilder();
-        sb.append(indent()).append("<planet>\n");
-        sb.append(indent()).append("    <name>").append(planet.getName()).append("</name>\n");
-        sb.append(indent()).append("    <moons>\n");
+        sb.append(indent()).append("    <planet>\n");
+        sb.append(indent()).append("        <name>").append(planet.getName()).append("</name>\n");
+        sb.append(indent()).append("        <moons number=").append(planet.getMoons().size()).append(">\n");
         level++;
         planet.getMoons().forEach( e-> {
             var rep = e.accept(this);
             sb.append(rep);
         });
         level--;
-        sb.append(indent()).append("    </moons>\n");
-        sb.append(indent()).append("</planet>\n");
+        sb.append(indent()).append("        </moons>\n");
+        sb.append(indent()).append("    </planet>\n");
         return sb.toString();
     }
 
@@ -32,7 +32,7 @@ public class XmlVisitor implements Visitor {
         StringBuilder sb = new StringBuilder();
         sb.append(indent()).append("<star>\n");
         sb.append(indent()).append("    <name>").append(star.getName()).append("</name>\n");
-        sb.append(indent()).append("    <planets>\n");
+        sb.append(indent()).append("    <planets number=").append(star.getOrbitalPlanets().size()).append(">\n");
         level++;
         star.getOrbitalPlanets().forEach(e -> {
             var rep = e.accept(this);
@@ -47,9 +47,9 @@ public class XmlVisitor implements Visitor {
     @Override
     public String visitMoon(Moon moon) {
         StringBuilder sb = new StringBuilder();
-        sb.append(indent()).append("<moon>\n");
-        sb.append(indent()).append("    <name>").append(moon.getName()).append("</name>\n");
-        sb.append(indent()).append("</moon>\n");
+        sb.append(indent()).append("        <moon>\n");
+        sb.append(indent()).append("            <name>").append(moon.getName()).append("</name>\n");
+        sb.append(indent()).append("        </moon>\n");
         return sb.toString();
     }
 
