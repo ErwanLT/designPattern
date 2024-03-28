@@ -9,7 +9,6 @@ import behavioral.visitor.visitors.impl.XmlVisitor;
 
 public class VisitorMain {
     public static void main(String[] args) {
-        // Création des objets SpaceElement
         Star sun = new Star("Sun");
         Planet earth = new Planet("Earth");
         Moon moon = new Moon("Moon");
