@@ -1,5 +1,10 @@
 package creation.factory;
 
+import creation.factory.model.Celestial;
+import creation.factory.model.impl.ManMadeSatellite;
+import creation.factory.model.impl.Planet;
+import creation.factory.model.impl.Star;
+
 import java.util.Objects;
 
 public class CelestialFactory {

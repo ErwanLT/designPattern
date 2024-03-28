@@ -1,4 +1,4 @@
-package creation.singleton;
+package creation.singleton.models;
 
 public class Sun {
 

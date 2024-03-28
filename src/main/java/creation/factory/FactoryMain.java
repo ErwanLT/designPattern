@@ -1,5 +1,7 @@
 package creation.factory;
 
+import creation.factory.model.Celestial;
+
 public class FactoryMain {
 
     public static void main(String[] args) {

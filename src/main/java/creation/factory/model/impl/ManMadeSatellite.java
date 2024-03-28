@@ -1,4 +1,6 @@
-package creation.factory;
+package creation.factory.model.impl;
+
+import creation.factory.model.Celestial;
 
 public class ManMadeSatellite implements Celestial {
     @Override
