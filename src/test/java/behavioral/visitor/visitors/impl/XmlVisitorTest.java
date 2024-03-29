@@ -15,25 +15,25 @@ import org.mockito.Mockito;
 
 class XmlVisitorTest {
     /**
-     * Method under test: {@link XmlVisitor#visitPlanet(Planet)}
+     * Method under test: {@link XmlExporter#visitPlanet(Planet)}
      */
     @Test
     void testVisitPlanet() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
 
         // Act and Assert
         assertEquals("        <planet>\n" + "            <name>Name</name>\n" + "            <moons number=0>\n"
-                + "            </moons>\n" + "        </planet>\n", xmlVisitor.visitPlanet(new Planet("Name")));
+                + "            </moons>\n" + "        </planet>\n", xmlExporter.visitPlanet(new Planet("Name")));
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitPlanet(Planet)}
+     * Method under test: {@link XmlExporter#visitPlanet(Planet)}
      */
     @Test
     void testVisitPlanet2() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
         SpaceElement moon = mock(SpaceElement.class);
         when(moon.accept(Mockito.<Visitor>any())).thenReturn("Accept");
 
@@ -41,7 +41,7 @@ class XmlVisitorTest {
         planet.addMoon(moon);
 
         // Act
-        String actualVisitPlanetResult = xmlVisitor.visitPlanet(planet);
+        String actualVisitPlanetResult = xmlExporter.visitPlanet(planet);
 
         // Assert
         verify(moon).accept(Mockito.<Visitor>any());
@@ -50,12 +50,12 @@ class XmlVisitorTest {
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitPlanet(Planet)}
+     * Method under test: {@link XmlExporter#visitPlanet(Planet)}
      */
     @Test
     void testVisitPlanet3() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
         SpaceElement moon = mock(SpaceElement.class);
         when(moon.accept(Mockito.<Visitor>any())).thenReturn("Accept");
         SpaceElement moon2 = mock(SpaceElement.class);
@@ -66,7 +66,7 @@ class XmlVisitorTest {
         planet.addMoon(moon);
 
         // Act
-        String actualVisitPlanetResult = xmlVisitor.visitPlanet(planet);
+        String actualVisitPlanetResult = xmlExporter.visitPlanet(planet);
 
         // Assert
         verify(moon2).accept(Mockito.<Visitor>any());
@@ -76,25 +76,25 @@ class XmlVisitorTest {
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitStar(Star)}
+     * Method under test: {@link XmlExporter#visitStar(Star)}
      */
     @Test
     void testVisitStar() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
 
         // Act and Assert
         assertEquals("    <star>\n        <name>Name</name>\n        <planets number=0>\n        </planets>\n    </star>\n",
-                xmlVisitor.visitStar(new Star("Name")));
+                xmlExporter.visitStar(new Star("Name")));
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitStar(Star)}
+     * Method under test: {@link XmlExporter#visitStar(Star)}
      */
     @Test
     void testVisitStar2() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
         SpaceElement planet = mock(SpaceElement.class);
         when(planet.accept(Mockito.<Visitor>any())).thenReturn("Accept");
 
@@ -102,7 +102,7 @@ class XmlVisitorTest {
         star.addPlanet(planet);
 
         // Act
-        String actualVisitStarResult = xmlVisitor.visitStar(star);
+        String actualVisitStarResult = xmlExporter.visitStar(star);
 
         // Assert
         verify(planet).accept(Mockito.<Visitor>any());
@@ -111,12 +111,12 @@ class XmlVisitorTest {
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitStar(Star)}
+     * Method under test: {@link XmlExporter#visitStar(Star)}
      */
     @Test
     void testVisitStar3() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
         SpaceElement planet = mock(SpaceElement.class);
         when(planet.accept(Mockito.<Visitor>any())).thenReturn("Accept");
         SpaceElement planet2 = mock(SpaceElement.class);
@@ -127,7 +127,7 @@ class XmlVisitorTest {
         star.addPlanet(planet);
 
         // Act
-        String actualVisitStarResult = xmlVisitor.visitStar(star);
+        String actualVisitStarResult = xmlExporter.visitStar(star);
 
         // Assert
         verify(planet2).accept(Mockito.<Visitor>any());
@@ -137,20 +137,20 @@ class XmlVisitorTest {
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitMoon(Moon)}
+     * Method under test: {@link XmlExporter#visitMoon(Moon)}
      */
     @Test
     void testVisitMoon() {
         // Arrange
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        XmlExporter xmlExporter = new XmlExporter();
 
         // Act and Assert
         assertEquals("            <moon>\n                <name>Name</name>\n            </moon>\n",
-                xmlVisitor.visitMoon(new Moon("Name")));
+                xmlExporter.visitMoon(new Moon("Name")));
     }
 
     /**
-     * Method under test: {@link XmlVisitor#visitMoon(Moon)}
+     * Method under test: {@link XmlExporter#visitMoon(Moon)}
      */
     @Test
     void testVisitMoon2() {
@@ -161,11 +161,11 @@ class XmlVisitorTest {
         Planet planet = new Planet("    ");
         planet.addMoon(moon);
 
-        XmlVisitor xmlVisitor = new XmlVisitor();
-        xmlVisitor.visitPlanet(planet);
+        XmlExporter xmlExporter = new XmlExporter();
+        xmlExporter.visitPlanet(planet);
 
         // Act
-        String actualVisitMoonResult = xmlVisitor.visitMoon(new Moon("Name"));
+        String actualVisitMoonResult = xmlExporter.visitMoon(new Moon("Name"));
 
         // Assert
         verify(moon).accept(Mockito.<Visitor>any());

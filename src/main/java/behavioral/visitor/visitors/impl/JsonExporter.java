@@ -6,7 +6,7 @@ import behavioral.visitor.models.impl.Planet;
 import behavioral.visitor.models.impl.Star;
 import behavioral.visitor.visitors.Visitor;
 
-public class JsonVisitor implements Visitor {
+public class JsonExporter implements Visitor {
 
     private int level = 1;
 
