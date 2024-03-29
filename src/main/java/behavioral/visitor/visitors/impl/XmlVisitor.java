@@ -51,7 +51,7 @@ public class XmlVisitor implements Visitor {
                 indent() + "        </moon>\n";
     }
 
-    public String getXmlRepresentation(SpaceElement element) {
+    public String getRepresentation(SpaceElement element) {
         return "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" +
                 "<solar_system>\n" +
                 element.accept(this) +

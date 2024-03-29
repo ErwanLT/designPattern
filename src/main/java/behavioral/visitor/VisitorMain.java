@@ -5,6 +5,7 @@ import behavioral.visitor.models.impl.Moon;
 import behavioral.visitor.models.impl.Planet;
 import behavioral.visitor.models.impl.Star;
 import behavioral.visitor.visitors.Visitor;
+import behavioral.visitor.visitors.impl.JsonVisitor;
 import behavioral.visitor.visitors.impl.XmlVisitor;
 
 public class VisitorMain {
@@ -21,15 +22,20 @@ public class VisitorMain {
         sun.addPlanet(earth);
         sun.addPlanet(mars);
 
-        XmlVisitor xmlVisitor = new XmlVisitor();
+        Visitor xmlVisitor = new XmlVisitor();
         sun.accept(xmlVisitor);
         earth.accept(xmlVisitor);
         mars.accept(xmlVisitor);
-
         export(xmlVisitor, sun);
+
+        Visitor jsonVisitor = new JsonVisitor();
+        sun.accept(jsonVisitor);
+        earth.accept(jsonVisitor);
+        mars.accept(jsonVisitor);
+        export(jsonVisitor, sun);
     }
 
-    private static void export(XmlVisitor visitor, SpaceElement element){
-        System.out.println(visitor.getXmlRepresentation(element));
+    private static void export(Visitor visitor, SpaceElement element){
+        System.out.println(visitor.getRepresentation(element)+"\n");
     }
 }
