@@ -25,6 +25,9 @@ Lets you define a subscription mechanism to notify multiple objects about any ev
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](src/main/java/behavioral/strategy/strategy.drawio.png)
 
+### [Visitor](src/main/java/behavioral/visitor)
+![visitor.png](src/main/java/behavioral/visitor/visitor.png)
+
 ## [Creation](src/main/java/creation)
 ### [Builder](src/main/java/creation/builder)
 When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation

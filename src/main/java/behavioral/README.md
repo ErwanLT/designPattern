@@ -19,3 +19,5 @@ Lets you define a subscription mechanism to notify multiple objects about any ev
 ## [Strategy](strategy)
 When you want the algorithm to vary independently from clients that use it.
 ![strategy.drawio.png](strategy/strategy.drawio.png)
+## [Visitor](visitor)
+![visitor.png](visitor/visitor.png)
