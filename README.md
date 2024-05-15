@@ -1,61 +1,19 @@
-# Design Pattern
-## [Behavioral](src/main/java/behavioral)
-### [Chain of Responsability](src/main/java/behavioral/chainResponsability)
+# Design Patterns
+Les Design Patterns en programmation, représentent des bonnes pratiques de conception de code qui offrent des solutions réutilisables pour résoudre des problèmes communs. Ils permettent de structurer le code de manière à favoriser la réutilisation , la flexibilité et la facilité de maintenance. Ces modèles de conception sont le résultat de l'expérience collective des développeurs et sont présentés sous forme de solutions éprouvées à des problèmes récurrents dans le développement logiciel. Les design patterns ne sont pas des solutions prêtes à l'emploi, mais des schémas à adapter selon les besoins spécifiques de chaque projet.
 
-![chain.png](src/main/java/behavioral/chainResponsability/chain.png)
-### [Command](src/main/java/behavioral/command)
-- When you need parameterize objects according to an action perform.
-- When you need to create and execute requests at different times.
-- When you need to support rollback, logging or transaction functionality.
-![commande.png](src/main/java/behavioral/command/commande.png)
+Les Design Patterns sont regroupés en 3 grandes familles :
 
-### [Mediator](src/main/java/behavioral/mediator)
-Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
-![mediator.png](src/main/java/behavioral/mediator/mediator.png)
+## [Création](src/main/java/creation)
+Les Design Patterns de Création sont un ensemble de design patterns qui permettent de créer des objets d'une manière qui soit flexible, modulaire et qui facilite leur réutilisation. Ils sont utilisés pour résoudre des problèmes de conception liés à la création d'objets.
 
-### [Memento](src/main/java/behavioral/memento)
-Typically, the Memento Design Pattern will be used in situations where some actions are undoable, therefore requiring to rollback to a previous state. However, if the state of the Originator is heavy, using the Memento Design Pattern can lead to an expensive creation process and increased use of memory.
-![memento.png](src/main/java/behavioral/memento/memento.png)
+Les designs pattern de création les plus utilisés sont les suivants :
+- **[Factory](src/main/java/creation/factory)** : En programmation orientée objet, le design pattern factory est un pattern de création qui utilise des méthodes de fabrication pour résoudre le problème de création d'objets sans avoir à spécifier la classe exacte de l'objet à créer. On utilise une interface ou une classe abstraite pour définir une méthode de création qui est implémentée par les sous-classes pour créer des objets de différentes classes. Ainsi, le Factory Method permet de créer des objets sans connaitre leur implémentation.
+- **[Builder](src/main/java/creation/builder)** : Le design pattern Builder est un modèle de conception qui permet de créer des objets complexes en séparant leur construction de leur représentation. En programmation orientée objet, ce design pattern est couramment utilisé pour créer des objets avec de nombreuses propriétés, en évitant de définir chacune de ces propriétés à chaque fois qu'un nouvel objet est créé.
+- **[Prototype](src/main/java/creation/prototype)** : En programmation orientée objet, le design pattern Prototype est utilisé lorsque la création d'une instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs instances de la classe, on copie la première instance et on modifie la copie de façon appropriée.
+- **[Singleton](src/main/java/creation/singleton)** : En programmation orientée objet, le design pattern Singleton est utilisé pour s'assurer qu'une classe ne possède qu'une seule instance et pour fournir un point d'accès à cette unique instance.
 
-### [Observer](src/main/java/behavioral/observer)
-Lets you define a subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
-![observer.drawio.png](src/main/java/behavioral/observer/observer.png)
+## [Comportementaux](src/main/java/behavioral)
+Les Design Patterns comportementaux, en programmation, représentent des solutions éprouvées aux problèmes récurrents liés à la communication entre les objets et les responsabilités de ces objets. Ces design patterns se concentrent sur la manière dont les objets interagissent et communiquent entre eux.
 
-### [Strategy](src/main/java/behavioral/strategy)
-When you want the algorithm to vary independently from clients that use it.
-![strategy.drawio.png](src/main/java/behavioral/strategy/strategy.drawio.png)
-
-### [Visitor](src/main/java/behavioral/visitor)
-![visitor.png](src/main/java/behavioral/visitor/visitor.png)
-
-## [Creation](src/main/java/creation)
-### [Builder](src/main/java/creation/builder)
-When you have a simple object, this pattern is not very useful, but when you begin to have a more complex object and want to have a clear code you can use it without hesitation
-![Builder.png](src/main/java/creation/builder/Builder.png)
-
-### [Factory](src/main/java/creation/factory)
-* When a class doesn’t know what sub-classes will be required to create
-* When a class wants that its sub-classes specify the objects to be created.
-* When the parent classes choose the creation of objects to its sub-classes.
-![Factory.png](src/main/java/creation/factory/Factory.png)
-### [Prototype](src/main/java/creation/prototype)
-If the cost for creating a new object is expensive and costs resources.
-![prototype.png](src/main/java/creation/prototype/prototype.png)
-### [Singleton](src/main/java/creation/singleton)
-When you want to ensure that a class has only one instance and to provide a global point of access to that instance
-![singleton.png](src/main/java/creation/singleton/singleton.png)
-
-## [Structural](src/main/java/structural)
-### [Adapter](src/main/java/structural/adapter)
-- When an outside component provides captivating functionality that we'd like to reuse, but it's incompatible with our current application. A suitable Adapter can be developed to make them compatible with each other
-- When our application is not compatible with the interface that our client is expecting
-- When we want to reuse legacy code in our application without making any modification in the original code
-
-### [Composite](src/main/java/structural/composite)
-When we want to implement the same interface on leaves and composites so that they are handled in the same way.
-
-### [Facade](src/main/java/structural/facade)
-Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
-
-### [Proxy](src/main/java/structural/proxy)
-When you want to provides the control for accessing the original object.
+## [Structurel](src/main/java/structural)
+Les Design Patterns structurels se concentrent sur la manière dont les classes et les objets sont structurés pour former des architectures logicielles plus flexibles et plus facile à maintenir. Ils facilitent la composition d'objets pour créer des structures plus complexes tout en minimisant les dépendances entre les différents éléments du système.
