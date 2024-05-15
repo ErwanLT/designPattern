@@ -1,4 +1,4 @@
-# Prototype
+# Singleton
 ## Definition
 En programmation orientée objet, le design pattern Singleton est utilisé pour s'assurer qu'une classe ne possède qu'une seule instance et pour fournir un point d'accès à cette unique instance.
 
