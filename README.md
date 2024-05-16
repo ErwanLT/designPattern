@@ -2,11 +2,17 @@
 ![](https://img.shields.io/badge/-French-blue?style=for-the-badge)
 
 # Design Patterns
+## Qu'est ce que sont les design pattern ?
 Les Design Patterns en programmation, représentent des bonnes pratiques de conception de code qui offrent des solutions réutilisables pour résoudre des problèmes communs. Ils permettent de structurer le code de manière à favoriser la réutilisation , la flexibilité et la facilité de maintenance. Ces modèles de conception sont le résultat de l'expérience collective des développeurs et sont présentés sous forme de solutions éprouvées à des problèmes récurrents dans le développement logiciel. Les design patterns ne sont pas des solutions prêtes à l'emploi, mais des schémas à adapter selon les besoins spécifiques de chaque projet.
 
+## Pourquoi utiliser les design pattern
+Les Design Patterns sont des solutions éprouvées aux problèmes récurrents rencontrés lors de la conception de logiciels. Ils offrent des modèles de conception testés et validés qui permettent de résoudre efficacement les problèmes de conception logicielle. Tout cela en favorisant la maintenabilité, la réutilisabilité et l'extensibilité du code.
+En utilisant des Design Patterns, vous pouvez structurer votre code de manière plus claire et plus compréhensible, ce qui facilite la collaboration au sein de l'équipe de développement et réduit le temps nécessaire à la résolution des problèmes.
+
+## Les différentes famille de design pattern
 Les Design Patterns sont regroupés en 3 grandes familles :
 
-## [Création](src/main/java/creation)
+### [Création](src/main/java/creation)
 Les Design Patterns de Création sont un ensemble de design patterns qui permettent de créer des objets d'une manière qui soit flexible, modulaire et qui facilite leur réutilisation. Ils sont utilisés pour résoudre des problèmes de conception liés à la création d'objets.
 
 Les designs pattern de création les plus utilisés sont les suivants :
@@ -15,7 +21,7 @@ Les designs pattern de création les plus utilisés sont les suivants :
 - **[Prototype](src/main/java/creation/prototype)** : En programmation orientée objet, le design pattern Prototype est utilisé lorsque la création d'une instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs instances de la classe, on copie la première instance et on modifie la copie de façon appropriée.
 - **[Singleton](src/main/java/creation/singleton)** : En programmation orientée objet, le design pattern Singleton est utilisé pour s'assurer qu'une classe ne possède qu'une seule instance et pour fournir un point d'accès à cette unique instance.
 
-## [Comportementaux](src/main/java/behavioral)
+### [Comportementaux](src/main/java/behavioral)
 Les Design Patterns comportementaux, en programmation, représentent des solutions éprouvées aux problèmes récurrents liés à la communication entre les objets et les responsabilités de ces objets. Ces design patterns se concentrent sur la manière dont les objets interagissent et communiquent entre eux.
 
 Les designs patterns comportementaux les plus utilisés sont les suivants :
@@ -35,7 +41,7 @@ Chaque objet État encapsule le comportement spécifique à un état particulier
 - **[Interpréteur](src/main/java/behavioral/interpretor)** : Le design pattern Interpréteur est un modèle comportemental qui permet d'interpréter ou d'évaluer un langage ou une grammaire. Il définit une représentation grammaticale d'une langue donnée, ainsi qu'un interpréteur qui utilise cette représentation pour interpréter les phrases de cette langue.
 Chaque élément de la grammaire est représenté par une classe, et les combinaisons d'éléments sont interprétées par des méthodes spécifiques de ces classes. Lorsqu'une expression est passée à l'interpréteur, il utilise la représentation grammaticale pour interpréter et évaluer l'expression selon les règles définies par la grammaire.
 
-## [Structurel](src/main/java/structural)
+### [Structurel](src/main/java/structural)
 Les Design Patterns structurels se concentrent sur la manière dont les classes et les objets sont structurés pour former des architectures logicielles plus flexibles et plus facile à maintenir. Ils facilitent la composition d'objets pour créer des structures plus complexes tout en minimisant les dépendances entre les différents éléments du système.
 
 
