@@ -44,6 +44,15 @@ Chaque élément de la grammaire est représenté par une classe, et les combina
 ### [Structurel](src/main/java/structural)
 Les Design Patterns structurels se concentrent sur la manière dont les classes et les objets sont structurés pour former des architectures logicielles plus flexibles et plus facile à maintenir. Ils facilitent la composition d'objets pour créer des structures plus complexes tout en minimisant les dépendances entre les différents éléments du système.
 
+Les designs patterns comportementaux les plus utilisés sont les suivants :
+
+- **[Adaptateur](src/main/java/structural/adapter)** :
+- **[Composite](src/main/java/structural/composite)** :
+- **[Décorateur](src/main/java/structural/decorator)** :
+- **[Facade](src/main/java/structural/facade)** :
+- **[Pont](src/main/java/structural/bridge)** :
+- **[Proxy](src/main/java/structural/proxy)** :
+
 
 ## ⁉️Plus d'informations
 Si jamais vous chercher plus d'informations sur comment fonctionne ces design patterns, je vous invite à vous rendre [ici](https://www.sfeir.dev/author/erwan/), vous y trouverez mes différents articles reprenant le code présent dans ce repository et expliquant en détail son fonctionnement.

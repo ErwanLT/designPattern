@@ -1,4 +1,4 @@
-# Adaptateur
+# Décorateur
 ## Definition
 
 ## ⚖️ Avantanges et inconvénients

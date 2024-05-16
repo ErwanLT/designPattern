@@ -1,14 +1,28 @@
-# Structural
-## [Adapter](adapter)
-- When an outside component provides captivating functionality that we'd like to reuse, but it's incompatible with our current application. A suitable Adapter can be developed to make them compatible with each other
-- When our application is not compatible with the interface that our client is expecting
-- When we want to reuse legacy code in our application without making any modification in the original code
+# Structurel
+Les Design Patterns de Création sont un ensemble de design patterns qui permettent de créer des objets d'une manière qui soit flexible, modulaire et qui facilite leur réutilisation. Ils sont utilisés pour résoudre des problèmes de conception liés à la création d'objets.
+
+Les designs pattern de création les plus utilisés sont les suivants
+
+## [Adaptateur](adaptateur)
+
+**exemple d'implémentation :**
+
+## [Pont](bridge)
+
+**exemple d'implémentation :**
 
 ## [Composite](composite)
-When we want to implement the same interface on leaves and composites so that they are handled in the same way.
+
+**exemple d'implémentation :**
+
+## [Décorateur](decorator)
+
+**exemple d'implémentation :**
 
 ## [Facade](facade)
-Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+
+**exemple d'implémentation :**
 
 ## [Proxy](proxy)
-When you want to provides the control for accessing the original object.
+
+**exemple d'implémentation :**
