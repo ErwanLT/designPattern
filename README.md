@@ -1,3 +1,6 @@
+[![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/ "java")
+![](https://img.shields.io/badge/-French-blue?style=for-the-badge)
+
 # Design Patterns
 Les Design Patterns en programmation, représentent des bonnes pratiques de conception de code qui offrent des solutions réutilisables pour résoudre des problèmes communs. Ils permettent de structurer le code de manière à favoriser la réutilisation , la flexibilité et la facilité de maintenance. Ces modèles de conception sont le résultat de l'expérience collective des développeurs et sont présentés sous forme de solutions éprouvées à des problèmes récurrents dans le développement logiciel. Les design patterns ne sont pas des solutions prêtes à l'emploi, mais des schémas à adapter selon les besoins spécifiques de chaque projet.
 
@@ -34,3 +37,7 @@ Chaque élément de la grammaire est représenté par une classe, et les combina
 
 ## [Structurel](src/main/java/structural)
 Les Design Patterns structurels se concentrent sur la manière dont les classes et les objets sont structurés pour former des architectures logicielles plus flexibles et plus facile à maintenir. Ils facilitent la composition d'objets pour créer des structures plus complexes tout en minimisant les dépendances entre les différents éléments du système.
+
+
+## ⁉️Plus d'informations
+Si jamais vous chercher plus d'informations sur comment fonctionne ces design patterns, je vous invite à vous rendre [ici](https://www.sfeir.dev/author/erwan/), vous y trouverez mes différents articles reprenant le code présent dans ce repository et expliquant en détail son fonctionnement.
