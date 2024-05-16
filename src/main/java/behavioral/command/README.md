@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Commande-blue)](https://www.sfeir.dev/back/design-patterns-comportementaux-commande/)
 # Commande
 ## Definition
 Le design pattern Commande est une approche qui prend une action à réaliser et la convertit en un objet autonome qui encapsule tous les détails de cette action. Cette conversion permet de paramétrer des méthodes avec différentes actions, de planifier leur exécution, de les mettre en file d'attente ou d'annuler des opérations déjà effectuées.

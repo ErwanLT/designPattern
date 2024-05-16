@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Visiteur-blue)](https://www.sfeir.dev/back/les-design-patterns-comportementaux-visiteur/)
 # Visiteur
 ## Definition
 Le design patterns Visiteur est un design pattern comportemental qui permet de séparer l'algorithme des éléments sur lesquels il opère. Il est souvent utilisé lorsque vous avez une structure d'objets complexe et que vous voulez ajouter de nouvelles opérations sans modifier les classes des objets eux-mêmes.

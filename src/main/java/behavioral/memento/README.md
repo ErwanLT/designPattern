@@ -1,4 +1,5 @@
-# Factory
+[![](https://img.shields.io/badge/sfeir.dev-Mémento-blue)](https://www.sfeir.dev/back/design-patterns-comportementaux-memento/)
+# Mémento
 ## Definition
 Le pattern Memento, un modèle de conception comportementale, offre la possibilité de sauvegarder et de rétablir l'état interne d'un objet sans compromettre son encapsulation. En Java, ce pattern est fréquemment employé pour mettre en place des fonctionnalités de sauvegarde et de restauration d'état dans les applications.
 

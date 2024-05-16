@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Chaine_de_responsabilité-blue)](https://www.sfeir.dev/back/design-patterns-comportementaux-chaine-responsabilite/)
 # Chaîne de responsabilité
 ## Definition
 Le design pattern Chaîne de responsabilité est un modèle comportemental qui permet de traiter une requête à travers une série de gestionnaires, sans connaître à l'avance quel gestionnaire va la traiter. Chaque gestionnaire possède une référence vers le gestionnaire suivant dans la chaîne. Lorsqu'une requête est envoyée à la chaîne, chaque gestionnaire décide s'il peut la traiter ou s'il doit la transmettre au gestionnaire suivant.

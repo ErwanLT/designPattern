@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-État-blue)](https://www.sfeir.dev/back/design-patterns-comportementaux-etat/)
 # État
 ## Definition
 Le design pattern État est un design pattern comportemental qui permet à un objet de modifier son comportement en fonction de son état interne.

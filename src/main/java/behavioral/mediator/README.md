@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Médiateur-blue)](https://www.sfeir.dev/back/design-patterns-comportementaux-mediateur/)
 # Mediateur
 ## Definition
 Le pattern Médiateur est un design pattern comportemental qui favorise le couplage lâche en définissant un objet qui encapsule la manière dont un ensemble d'objets interagit. Plutôt que de permettre à ces objets de communiquer directement entre eux, ils communiquent uniquement à travers le médiateur. Cela réduit la dépendance entre les objets et facilite la modification et l'extension du système, car les interactions sont centralisées dans le médiateur.

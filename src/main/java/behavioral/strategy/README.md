@@ -1,4 +1,5 @@
-# Strategie
+[![](https://img.shields.io/badge/sfeir.dev-Stratégie-blue)](https://www.sfeir.dev/back/les-designs-pattern-comportementaux/)
+# Stratégie
 ## Definition
 En programmation orientée objet, le design pattern Stratégie définit une famille d'algorithmes, encapsulant chacun d'eux, et les rendant interchangeables. Il permet à un client de choisir un algorithme parmi plusieurs sans modifier la structure du code. Cela favorise la flexibilité et l'extensibilité du code.
 
