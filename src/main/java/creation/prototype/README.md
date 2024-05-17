@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Prototype-purple)](https://www.sfeir.dev/back/les-designs-patterns-de-creation-prototype/)
 # Prototype
 ## Definition
 En programmation orientée objet, le design pattern Prototype est utilisé lorsque la création d'une instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs instances de la classe, on copie la première instance et on modifie la copie de façon appropriée.

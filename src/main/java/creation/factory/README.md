@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Factory-purple)](https://www.sfeir.dev/back/design-pattern-factory/)
 # Factory
 ## Definition
 En programmation orientée objet, le design pattern factory est un pattern de création qui utilise des méthodes de fabrication pour résoudre le problème de création d'objets sans avoir à spécifier la classe exacte de l'objet à créer. On utilise une interface ou une classe abstraite pour définir une méthode de création qui est implémentée par les sous-classes pour créer des objets de différentes classes. Ainsi, le Factory Method permet de créer des objets sans connaitre leur implémentation.

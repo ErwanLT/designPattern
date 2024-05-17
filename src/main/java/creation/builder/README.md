@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Builder-purple)](https://www.sfeir.dev/back/les-designs-patterns-de-creation-builder/)
 # Builder
 ## Definition
 Le design pattern Builder est un modèle de conception qui permet de créer des objets complexes en séparant leur construction de leur représentation. En programmation orientée objet, ce design pattern est couramment utilisé pour créer des objets avec de nombreuses propriétés, en évitant de définir chacune de ces propriétés à chaque fois qu'un nouvel objet est créé.

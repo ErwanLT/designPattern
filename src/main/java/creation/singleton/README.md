@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/sfeir.dev-Singleton-purple)](https://www.sfeir.dev/back/design-pattern-singleton/)
 # Singleton
 ## Definition
 En programmation orientée objet, le design pattern Singleton est utilisé pour s'assurer qu'une classe ne possède qu'une seule instance et pour fournir un point d'accès à cette unique instance.
