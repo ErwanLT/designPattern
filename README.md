@@ -49,7 +49,8 @@ Les designs patterns comportementaux les plus utilisés sont les suivants :
 - **[Adaptateur](src/main/java/structural/adapter)** : Le design pattern Adaptateur est un modèle structurel qui permet à des interfaces incompatibles de collaborer entre elles. Il agit comme un intermédiaire qui convertit l'interface d'une classe en une autre interface attendue par le client.<br>
 Ce design pattern définit un adaptateur qui enveloppe l'objet à adapter, fournissant ainsi une interface conforme aux attentes du client. De cette manière, le client peut utiliser l'adaptateur comme s'il s'agissait de l'interface originale, sans connaître les détails de l'implémentation sous-jacente.<br>
 Chaque adaptateur implémente l'interface attendue par le client et utilise l'objet à adapter pour répondre aux appels de méthode. Cela permet d'intégrer des composants existants dans de nouvelles architectures sans avoir à les modifier, favorisant ainsi la réutilisation du code et la compatibilité entre différentes parties d'un système logiciel.
-- **[Composite](src/main/java/structural/composite)** :
+- **[Composite](src/main/java/structural/composite)** : Le design pattern Composite permet de composer des objets en structures arborescentes pour représenter des hiérarchies.<br>
+Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les branches représentent les compositions d'objets (les composites), et les feuilles représentent les objets individuels (les feuilles). De la même manière qu'un arbre peut être constitué de branches et de feuilles, une structure composite permet de combiner des objets simples et des compositions d'objets pour former une hiérarchie complexe.
 - **[Décorateur](src/main/java/structural/decorator)** :
 - **[Facade](src/main/java/structural/facade)** :
 - **[Pont](src/main/java/structural/bridge)** :
