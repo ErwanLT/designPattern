@@ -4,6 +4,8 @@ Les Design Patterns de Création sont un ensemble de design patterns qui permett
 Les designs pattern de création les plus utilisés sont les suivants
 
 ## [Adaptateur](adaptateur)
+[![](https://img.shields.io/badge/sfeir.dev-Prototype-green)]()
+
 Le design pattern Adaptateur est un modèle structurel qui permet à des interfaces incompatibles de collaborer entre elles. Il agit comme un intermédiaire qui convertit l'interface d'une classe en une autre interface attendue par le client.
 
 Ce design pattern définit un adaptateur qui enveloppe l'objet à adapter, fournissant ainsi une interface conforme aux attentes du client. De cette manière, le client peut utiliser l'adaptateur comme s'il s'agissait de l'interface originale, sans connaître les détails de l'implémentation sous-jacente.
@@ -20,8 +22,16 @@ Chaque adaptateur implémente l'interface attendue par le client et utilise l'ob
 **exemple d'implémentation :**
 
 ## [Composite](composite)
+[![](https://img.shields.io/badge/sfeir.dev-Composite-green)]()
+
+Le design pattern Composite permet de composer des objets en structures arborescentes pour représenter des hiérarchies.
+
+Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les branches représentent les compositions d'objets (les composites), et les feuilles représentent les objets individuels (les feuilles). De la même manière qu'un arbre peut être constitué de branches et de feuilles, une structure composite permet de combiner des objets simples et des compositions d'objets pour former une hiérarchie complexe.
+
 
 **exemple d'implémentation :**
+
+![composite.drawio.png](composite/composite.drawio.png)
 
 ## [Décorateur](decorator)
 
