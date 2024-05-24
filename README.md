@@ -15,7 +15,7 @@ Les Design Patterns sont regroupés en 3 grandes familles :
 ### [Création](src/main/java/creation)
 Les Design Patterns de Création sont un ensemble de design patterns qui permettent de créer des objets d'une manière qui soit flexible, modulaire et qui facilite leur réutilisation. Ils sont utilisés pour résoudre des problèmes de conception liés à la création d'objets.
 
-Les designs pattern de création les plus utilisés sont les suivants :
+Les design pattern de création les plus utilisés sont les suivants :
 - **[Factory](src/main/java/creation/factory)** : En programmation orientée objet, le design pattern factory est un pattern de création qui utilise des méthodes de fabrication pour résoudre le problème de création d'objets sans avoir à spécifier la classe exacte de l'objet à créer. On utilise une interface ou une classe abstraite pour définir une méthode de création qui est implémentée par les sous-classes pour créer des objets de différentes classes. Ainsi, le Factory Method permet de créer des objets sans connaitre leur implémentation.
 - **[Builder](src/main/java/creation/builder)** : Le design pattern Builder est un modèle de conception qui permet de créer des objets complexes en séparant leur construction de leur représentation. En programmation orientée objet, ce design pattern est couramment utilisé pour créer des objets avec de nombreuses propriétés, en évitant de définir chacune de ces propriétés à chaque fois qu'un nouvel objet est créé.
 - **[Prototype](src/main/java/creation/prototype)** : En programmation orientée objet, le design pattern Prototype est utilisé lorsque la création d'une instance est complexe ou consommatrice en temps. Plutôt que créer plusieurs instances de la classe, on copie la première instance et on modifie la copie de façon appropriée.
@@ -24,7 +24,7 @@ Les designs pattern de création les plus utilisés sont les suivants :
 ### [Comportementaux](src/main/java/behavioral)
 Les Design Patterns comportementaux, en programmation, représentent des solutions éprouvées aux problèmes récurrents liés à la communication entre les objets et les responsabilités de ces objets. Ces design patterns se concentrent sur la manière dont les objets interagissent et communiquent entre eux.
 
-Les designs patterns comportementaux les plus utilisés sont les suivants :
+Les design patterns comportementaux les plus utilisés sont les suivants :
 
 - **[Strategie](src/main/java/behavioral/strategy)** : En programmation orientée objet, le design pattern Stratégie définit une famille d'algorithmes, encapsulant chacun d'eux, et les rendant interchangeables. Il permet à un client de choisir un algorithme parmi plusieurs sans modifier la structure du code. Cela favorise la flexibilité et l'extensibilité du code.
 - **[Mémento](src/main/java/behavioral/memento)** : Le pattern Memento, un modèle de conception comportementale, offre la possibilité de sauvegarder et de rétablir l'état interne d'un objet sans compromettre son encapsulation. En Java, ce pattern est fréquemment employé pour mettre en place des fonctionnalités de sauvegarde et de restauration d'état dans les applications.
@@ -44,7 +44,7 @@ Chaque élément de la grammaire est représenté par une classe, et les combina
 ### [Structurel](src/main/java/structural)
 Les Design Patterns structurels se concentrent sur la manière dont les classes et les objets sont structurés pour former des architectures logicielles plus flexibles et plus facile à maintenir. Ils facilitent la composition d'objets pour créer des structures plus complexes tout en minimisant les dépendances entre les différents éléments du système.
 
-Les designs patterns comportementaux les plus utilisés sont les suivants :
+Les design patterns comportementaux les plus utilisés sont les suivants :
 
 - **[Adaptateur](src/main/java/structural/adapter)** : Le design pattern Adaptateur est un modèle structurel qui permet à des interfaces incompatibles de collaborer entre elles. Il agit comme un intermédiaire qui convertit l'interface d'une classe en une autre interface attendue par le client.<br>
 Ce design pattern définit un adaptateur qui enveloppe l'objet à adapter, fournissant ainsi une interface conforme aux attentes du client. De cette manière, le client peut utiliser l'adaptateur comme s'il s'agissait de l'interface originale, sans connaître les détails de l'implémentation sous-jacente.<br>
