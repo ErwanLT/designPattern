@@ -2,10 +2,10 @@
 ![](https://img.shields.io/badge/-French-blue?style=for-the-badge)
 
 # Design Patterns
-## Qu'est ce que sont les design patterns ?
+## [Qu'est ce que sont les design patterns ?](https://www.sfeir.dev/back/kesaco-designs-pattern/)
 Les Design Patterns en programmation, représentent des bonnes pratiques de conception de code qui offrent des solutions réutilisables pour résoudre des problèmes communs. Ils permettent de structurer le code de manière à favoriser la réutilisation , la flexibilité et la facilité de maintenance. Ces modèles de conception sont le résultat de l'expérience collective des développeurs et sont présentés sous forme de solutions éprouvées à des problèmes récurrents dans le développement logiciel. Les design patterns ne sont pas des solutions prêtes à l'emploi, mais des schémas à adapter selon les besoins spécifiques de chaque projet.
 
-## Pourquoi utiliser les design patterns
+## [Pourquoi utiliser les design patterns](https://www.sfeir.dev/pourquoi-utiliser-design-pattern/)
 Les Design Patterns sont des solutions éprouvées aux problèmes récurrents rencontrés lors de la conception de logiciels. Ils offrent des modèles de conception testés et validés qui permettent de résoudre efficacement les problèmes de conception logicielle. Tout cela en favorisant la maintenabilité, la réutilisabilité et l'extensibilité du code.
 En utilisant des Design Patterns, vous pouvez structurer votre code de manière plus claire et plus compréhensible, ce qui facilite la collaboration au sein de l'équipe de développement et réduit le temps nécessaire à la résolution des problèmes.
 
