@@ -51,7 +51,9 @@ Ce design pattern définit un adaptateur qui enveloppe l'objet à adapter, fourn
 Chaque adaptateur implémente l'interface attendue par le client et utilise l'objet à adapter pour répondre aux appels de méthode. Cela permet d'intégrer des composants existants dans de nouvelles architectures sans avoir à les modifier, favorisant ainsi la réutilisation du code et la compatibilité entre différentes parties d'un système logiciel.
 - **[Composite](src/main/java/structural/composite)** : Le design pattern Composite permet de composer des objets en structures arborescentes pour représenter des hiérarchies.<br>
 Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les branches représentent les compositions d'objets (les composites), et les feuilles représentent les objets individuels (les feuilles). De la même manière qu'un arbre peut être constitué de branches et de feuilles, une structure composite permet de combiner des objets simples et des compositions d'objets pour former une hiérarchie complexe.
-- **[Décorateur](src/main/java/structural/decorator)** :
+- **[Décorateur](src/main/java/structural/decorator)** : Le design pattern Décorateur, aussi connu sous le nom de Wrapper, permet d’ajouter dynamiquement des comportements ou des responsabilités à un objet sans modifier son code.<br>
+  Il favorise l'utilisation de la composition plutôt que de l'héritage pour l'extension des fonctionnalités.<br>
+  Le décorateur enveloppe l'objet d'origine et ajoute de nouvelles fonctionnalités tout en déléguant les appels à l'objet encapsulé.
 - **[Facade](src/main/java/structural/facade)** :
 - **[Pont](src/main/java/structural/bridge)** :
 - **[Proxy](src/main/java/structural/proxy)** :
