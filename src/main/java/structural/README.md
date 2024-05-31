@@ -12,14 +12,13 @@ Ce design pattern définit un adaptateur qui enveloppe l'objet à adapter, fourn
 
 Chaque adaptateur implémente l'interface attendue par le client et utilise l'objet à adapter pour répondre aux appels de méthode. Cela permet d'intégrer des composants existants dans de nouvelles architectures sans avoir à les modifier, favorisant ainsi la réutilisation du code et la compatibilité entre différentes parties d'un système logiciel.
 
-
-**exemple d'implémentation :**
+### exemple d'implémentation :
 
 ![adapter.png](adapter/adapter.png)
 
 ## [Pont](bridge)
 
-**exemple d'implémentation :**
+### exemple d'implémentation :
 
 ## [Composite](composite)
 [![](https://img.shields.io/badge/sfeir.dev-Composite-green)]()
@@ -28,8 +27,7 @@ Le design pattern Composite permet de composer des objets en structures arboresc
 
 Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les branches représentent les compositions d'objets (les composites), et les feuilles représentent les objets individuels (les feuilles). De la même manière qu'un arbre peut être constitué de branches et de feuilles, une structure composite permet de combiner des objets simples et des compositions d'objets pour former une hiérarchie complexe.
 
-
-**exemple d'implémentation :**
+### exemple d'implémentation :
 
 ![composite.drawio.png](composite/composite.drawio.png)
 
@@ -42,14 +40,21 @@ Il favorise l'utilisation de la composition plutôt que de l'héritage pour l'ex
 
 Le décorateur enveloppe l'objet d'origine et ajoute de nouvelles fonctionnalités tout en déléguant les appels à l'objet encapsulé.
 
-**exemple d'implémentation :**
+### exemple d'implémentation :
 
 ![decorator.drawio.png](decorator/decorator.drawio.png)
 
-## [Facade](facade)
+## [Façade](facade)
+[![](https://img.shields.io/badge/sfeir.dev-Façade-green)]()
 
-**exemple d'implémentation :**
+Le design pattern Façade fournit une interface simplifiée à un ensemble de classes ou à un sous-système complexe.
+
+Il agit comme une "façade" qui cache la complexité des interactions internes, offrant aux clients une interface plus simple et plus facile à utiliser.
+
+Ce pattern est particulièrement utile lorsque vous avez un système complexe avec de nombreuses classes interconnectées, et que vous souhaitez fournir une interface plus intuitive pour les utilisateurs de ce système.
+
+### exemple d'implémentation :
 
 ## [Proxy](proxy)
 
-**exemple d'implémentation :**
+### exemple d'implémentation :
