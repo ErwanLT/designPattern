@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/sfeir.dev-Adapter-green)]()
+[![](https://img.shields.io/badge/sfeir.dev-Adapter-green)](https://www.sfeir.dev/back/les-design-patterns-structurel-adaptateur/)
 # Adaptateur
 ## Definition
 Le design pattern Adaptateur est un modèle structurel qui permet à des interfaces incompatibles de collaborer entre elles. Il agit comme un intermédiaire qui convertit l'interface d'une classe en une autre interface attendue par le client.

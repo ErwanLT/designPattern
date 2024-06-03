@@ -4,7 +4,7 @@ Les Design Patterns de Création sont un ensemble de design patterns qui permett
 Les designs pattern de création les plus utilisés sont les suivants
 
 ## [Adaptateur](adaptateur)
-[![](https://img.shields.io/badge/sfeir.dev-Prototype-green)]()
+[![](https://img.shields.io/badge/sfeir.dev-Prototype-green)](https://www.sfeir.dev/back/les-design-patterns-structurel-adaptateur/)
 
 Le design pattern Adaptateur est un modèle structurel qui permet à des interfaces incompatibles de collaborer entre elles. Il agit comme un intermédiaire qui convertit l'interface d'une classe en une autre interface attendue par le client.
 
