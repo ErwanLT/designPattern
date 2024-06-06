@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/sfeir.dev-Décorateur-green)]()
+[![](https://img.shields.io/badge/sfeir.dev-Façade-green)]()
 # Façade
 ## Definition
 Le design pattern Façade fournit une interface simplifiée à un ensemble de classes ou à un sous-système complexe.
@@ -16,3 +16,4 @@ Ce pattern est particulièrement utile lorsque vous avez un système complexe av
 - **Couche supplémentaire** : L'utilisation d'une façade introduit une couche supplémentaire d'abstraction, ce qui peut parfois ajouter une légère surcharge en termes de performance et de complexité.
 - **Masquage excessif** : Dans certains cas, la façade peut masquer trop de détails du sous-système, limitant ainsi la flexibilité et les possibilités d'optimisation pour les utilisateurs avancés.
 ## Implementation
+![facade.drawio.png](facade.drawio.png)

@@ -54,7 +54,9 @@ Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les 
 - **[Décorateur](src/main/java/structural/decorator)** : Le design pattern Décorateur, aussi connu sous le nom de Wrapper, permet d’ajouter dynamiquement des comportements ou des responsabilités à un objet sans modifier son code.<br>
   Il favorise l'utilisation de la composition plutôt que de l'héritage pour l'extension des fonctionnalités.<br>
   Le décorateur enveloppe l'objet d'origine et ajoute de nouvelles fonctionnalités tout en déléguant les appels à l'objet encapsulé.
-- **[Facade](src/main/java/structural/facade)** :
+- **[Facade](src/main/java/structural/facade)** : Le design pattern Façade fournit une interface simplifiée à un ensemble de classes ou à un sous-système complexe.<br>
+Il agit comme une "façade" qui cache la complexité des interactions internes, offrant aux clients une interface plus simple et plus facile à utiliser.<br>
+Ce pattern est particulièrement utile lorsque vous avez un système complexe avec de nombreuses classes interconnectées, et que vous souhaitez fournir une interface plus intuitive pour les utilisateurs de ce système.
 - **[Pont](src/main/java/structural/bridge)** :
 - **[Proxy](src/main/java/structural/proxy)** :
 

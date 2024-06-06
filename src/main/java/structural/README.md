@@ -54,6 +54,7 @@ Il agit comme une "façade" qui cache la complexité des interactions internes, 
 Ce pattern est particulièrement utile lorsque vous avez un système complexe avec de nombreuses classes interconnectées, et que vous souhaitez fournir une interface plus intuitive pour les utilisateurs de ce système.
 
 ### exemple d'implémentation :
+![facade.drawio](facade/facade.drawio.png)
 
 ## [Proxy](proxy)
 
