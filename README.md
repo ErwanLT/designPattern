@@ -57,7 +57,10 @@ Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les 
 - **[Facade](src/main/java/structural/facade)** : Le design pattern Façade fournit une interface simplifiée à un ensemble de classes ou à un sous-système complexe.<br>
 Il agit comme une "façade" qui cache la complexité des interactions internes, offrant aux clients une interface plus simple et plus facile à utiliser.<br>
 Ce pattern est particulièrement utile lorsque vous avez un système complexe avec de nombreuses classes interconnectées, et que vous souhaitez fournir une interface plus intuitive pour les utilisateurs de ce système.
-- **[Pont](src/main/java/structural/bridge)** :
+- **[Pont](src/main/java/structural/bridge)** : Le design pattern Pont permet de découpler une abstraction d'une implémentation afin qu'elles puissent évoluer indépendamment.<br>
+Il permet de séparer la logique d'une classe de sa représentation physique, facilitant ainsi la gestion et l'extension du code.<br>
+Le pattern Pont utilise la composition plutôt que l'héritage, permettant de combiner des implémentations et des abstractions de manière plus flexible.
+
 - **[Proxy](src/main/java/structural/proxy)** :
 
 
