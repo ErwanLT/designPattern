@@ -28,7 +28,7 @@ Le pattern Pont utilise la composition plutôt que l'héritage, permettant de co
 ### exemple d'implémentation :
 
 ## [Composite](composite)
-[![](https://img.shields.io/badge/sfeir.dev-Composite-green)]()
+[![](https://img.shields.io/badge/sfeir.dev-Composite-green)](https://www.sfeir.dev/back/les-design-patterns-structurels-composite/)
 
 Le design pattern Composite permet de composer des objets en structures arborescentes pour représenter des hiérarchies.
 

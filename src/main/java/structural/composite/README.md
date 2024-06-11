@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/sfeir.dev-Composite-green)]()
+[![](https://img.shields.io/badge/sfeir.dev-Composite-green)](https://www.sfeir.dev/back/les-design-patterns-structurels-composite/)
 # Composite
 ## Definition
 Le design pattern Composite permet de composer des objets en structures arborescentes pour représenter des hiérarchies.
