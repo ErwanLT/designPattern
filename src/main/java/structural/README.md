@@ -39,7 +39,7 @@ Imaginez un arbre : l'arbre complet représente l'ensemble de la structure, les 
 ![composite.drawio.png](composite/composite.drawio.png)
 
 ## [Décorateur](decorator)
-[![](https://img.shields.io/badge/sfeir.dev-Décorateur-green)]()
+[![](https://img.shields.io/badge/sfeir.dev-Décorateur-green)](https://www.sfeir.dev/back/les-design-patterns-structurels-decorateur/)
 
 Le design pattern **Décorateur**, aussi connu sous le nom de **Wrapper**, permet d’ajouter dynamiquement des comportements ou des responsabilités à un objet sans modifier son code.
 
