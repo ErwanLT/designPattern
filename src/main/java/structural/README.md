@@ -26,6 +26,7 @@ Il permet de séparer la logique d'une classe de sa représentation physique, fa
 Le pattern Pont utilise la composition plutôt que l'héritage, permettant de combiner des implémentations et des abstractions de manière plus flexible.
 
 ### exemple d'implémentation :
+![bridge.drawio.png](bridge/bridge.drawio.png)
 
 ## [Composite](composite)
 [![](https://img.shields.io/badge/sfeir.dev-Composite-green)](https://www.sfeir.dev/back/les-design-patterns-structurels-composite/)

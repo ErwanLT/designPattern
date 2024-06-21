@@ -12,3 +12,4 @@ Le pattern Pont utilise la composition plutôt que l'héritage, permettant de co
 ### ➖Inconvénients
 
 ## Implementation
+![bridge.drawio.png](bridge.drawio.png)
