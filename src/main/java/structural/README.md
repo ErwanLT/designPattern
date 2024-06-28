@@ -65,5 +65,9 @@ Ce pattern est particulièrement utile lorsque vous avez un système complexe av
 ![facade.drawio](facade/facade.drawio.png)
 
 ## [Proxy](proxy)
+[![](https://img.shields.io/badge/sfeir.dev-Proxy-green)]()
+
+Le design pattern Proxy est un modèle de conception structurel qui fournit un substitut ou un intermédiaire à un autre objet pour contrôler l'accès à cet objet.<br>
+En Java, un proxy peut être utilisé pour ajouter une couche d'indirection et d'interception, permettant de modifier ou de contrôler l'accès aux fonctionnalités d'un objet sans en altérer le code source.
 
 ### exemple d'implémentation :
