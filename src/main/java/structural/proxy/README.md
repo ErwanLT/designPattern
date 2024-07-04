@@ -14,3 +14,4 @@ En Java, un proxy peut être utilisé pour ajouter une couche d'indirection et d
 - **Dégradation des performances** : L'interception des appels de méthode via un proxy peut introduire une surcharge et potentiellement dégrader les performances.
 - **Débug plus difficile** : La présence de proxies peut rendre le débogage plus compliqué car il ajoute un niveau d'indirection entre le client et l'objet réel.
 ## Implementation
+![proxy.png](proxy.png)

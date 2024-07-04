@@ -71,3 +71,4 @@ Le design pattern Proxy est un modèle de conception structurel qui fournit un s
 En Java, un proxy peut être utilisé pour ajouter une couche d'indirection et d'interception, permettant de modifier ou de contrôler l'accès aux fonctionnalités d'un objet sans en altérer le code source.
 
 ### exemple d'implémentation :
+![proxy.png](proxy/proxy.png)
