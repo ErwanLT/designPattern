@@ -1,7 +1,7 @@
 # Structurel
-Les Design Patterns de Création sont un ensemble de design patterns qui permettent de créer des objets d'une manière qui soit flexible, modulaire et qui facilite leur réutilisation. Ils sont utilisés pour résoudre des problèmes de conception liés à la création d'objets.
+Les Design Patterns structurels se concentrent sur la manière dont les classes et les objets sont structurés pour former des architectures logicielles plus flexibles et plus facile à maintenir. Ils facilitent la composition d'objets pour créer des structures plus complexes tout en minimisant les dépendances entre les différents éléments du système.
 
-Les designs pattern de création les plus utilisés sont les suivants
+Les design patterns structurels les plus utilisés sont les suivants :
 
 ## [Adaptateur](adaptateur)
 [![](https://img.shields.io/badge/sfeir.dev-Prototype-green)](https://www.sfeir.dev/back/les-design-patterns-structurel-adaptateur/)
