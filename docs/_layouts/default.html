@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <style>
+        body {
+          display: flex;
+          margin: 0;
+          font-family: sans-serif;
+        }
+        nav {
+          width: 200px;
+          background: #f4f4f4;
+          padding: 1em;
+          height: 100vh;
+          box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        main {
+          flex: 1;
+          padding: 2em;
+        }
+        footer {
+          margin-top: 2em;
+          border-top: 1px solid #ccc;
+          padding-top: 1em;
+          color: #888;
+          font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    {% include sidebar.html %}
+</nav>
+<main>
+    {{ content }}
+    {% include footer.html %}
+</main>
+</body>
+</html>
